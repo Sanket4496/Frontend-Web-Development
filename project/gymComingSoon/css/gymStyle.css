@@ -1,0 +1,29 @@
+body{
+    background: url(../image/bgGymOp.png)
+    no-repeat center center fixed;
+    background-size: cover;
+}
+
+div{
+    background-color: lightblue;
+    width: 60%;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 25px;
+}
+
+button{
+    background: orange;
+    padding: 20px;
+    color: white;
+    font-size: 2em;
+    border-radius: 25px;
+}
+
+h1{
+    font-size: 4em;
+}
+
+p{
+    font-size: 4em;
+}
