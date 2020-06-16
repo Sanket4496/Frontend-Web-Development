@@ -1,0 +1,28 @@
+/*
+body{
+    background-image: url(../image/bg1.jpg);
+    
+}
+*/
+body{
+    background: url(../image/bgcat.jpeg) 
+    no-repeat center center fixed ;
+    
+    background-size: cover;
+}
+
+div{
+    background-color: skyblue;
+}
+h1{
+    color: #672371;
+    text-align: center;
+    /*border: 3px solid red ;*/
+    width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 300px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 3em;
+    
+}

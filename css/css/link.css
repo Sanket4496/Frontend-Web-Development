@@ -1,0 +1,21 @@
+a{
+    font-size: 35px;
+}
+
+/*order: link, visited, hover, active*/
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color: green;
+}
+
+a:hover{
+    color: chartreuse;
+}
+
+a:active{
+    color: darkmagenta;
+}
