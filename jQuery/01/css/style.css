@@ -1,0 +1,15 @@
+body{
+    background-color: green;
+    color: #fff;
+}
+
+.center{
+    text-align: center;
+    font-size: 2em;
+}
+
+.center button{
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: #F63
+}
