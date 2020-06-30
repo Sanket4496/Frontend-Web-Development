@@ -1,0 +1,22 @@
+body{
+    background-color: green;
+    color: #fff;
+}
+
+.center{
+    text-align: center;
+    font-size: 2em;
+}
+
+.center h1{
+    background-color: rgba(50,50,50,0.5);
+    
+}
+
+.sample{
+    margin: 0 auto;
+    margin-top: -43px;
+    height: 100px;
+    width: 300px;
+    background-color: #fff;
+}
