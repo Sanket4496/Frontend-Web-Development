@@ -1,0 +1,14 @@
+.big{
+    height: 400px;
+    background: linear-gradient(#ff6633,#ffffff)
+    
+}
+
+.circle{
+    height: 400px;
+    background: radial-gradient(white,grey);
+}
+
+input[type = "checkbox"]:checked + label{
+    text-decoration: line-through
+}

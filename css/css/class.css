@@ -1,0 +1,19 @@
+div{
+    background: green;
+    height: 100px;
+}
+
+.black{
+    background: black;
+    height: 100px;
+    color: white
+}
+
+.pink{
+    background: hotpink;
+    height: 100px;
+}
+
+#red{
+    background-color: red;
+}
