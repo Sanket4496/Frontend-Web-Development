@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A testing page to learn JavaScript</title>
+      <!--
+    <script src="script.js">
+    </script>
+    
+    -->
+</head>
+<body>
+   <h1 id = "test"></h1>
+    <h1 id = "changeColor">Everyone can create this kind of page</h1>
+    
+    <h2>If this is too tough for you, then take a look at HTML course</h2>
+    
+    <p>Online education is a revolutionary step. People now can learn a lot of things in just one day. Go as fast as you can or as many time as you wish.</p>
+    
+    <!--<button type="button" onMouseOver = "document.getElementById('changeColor').style.color = 'red'">onMouseOver Button</button>-->
+    
+    <div onmouseDown = "mDown(this)" onmouseup="mUp(this)"
+       style="background-color: red; width: 100px; height: 30px; padding: 30px" >
+        Hey ! Click Me
+    </div>
+    
+    <ul id = "change">
+        <li>Quality Courses</li>
+        <li>Watch, repeat and learn</li>
+        <li>Learn new skills every day.</li>
+    </ul>
+    
+    <!--
+    <div id = "test">
+        
+        <form id = "myForm" action="#">
+            first name : <input type="text" name="fname" value="test"><br>
+            Last name : <input type="text" name="lname" value = "test"><br>
+            
+            <button onclick="myFunction()">getValue</button>
+            
+        </form>
+    </div>
+    -->
+    
+    <div>
+        <h3 id = "getValue"></h3>
+    </div>
+    
+    <script>
+        function mDown(obj){
+            obj.style.backgroundColor = "yellow"
+            obj.innerHTML = "you clicked !"
+        }
+        
+        function mUp(obj){
+            obj.style.backgroundColor = "blue"
+            obj.innerHTML = "Go Away"
+        }
+    </script>
+    
+    
+    <!--
+    <script src="script.js">
+        //console.info("hello world");
+        //console.warn("hello world");
+    </script>
+    -->
+</body>
+</html>
