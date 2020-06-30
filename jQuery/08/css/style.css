@@ -1,0 +1,73 @@
+body{
+    background-color: green;
+    color: #fff;
+}
+
+.center{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.center h1{
+    background-color: rgba(50,50,50,0.5);
+}
+
+.new{
+    text-align: left;
+    color: black;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.new h1{
+    background-color: rgb(50,50,50);
+}
+
+.btn1{
+    margin: 0 auto;
+    margin-top: -43px;
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    background-color: #f63;
+}
+
+.btn2{
+    margin: 0 auto;
+    margin-top: -43px;
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    background-color: firebrick;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
